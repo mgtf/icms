@@ -37,7 +37,7 @@ zend_module_entry icms_module_entry = {
 	icms_functions,
 	PHP_MINIT(icms),
 	PHP_MSHUTDOWN(icms),
-	PHP_RINIT(icms),		/* Replace with NULL if there's nothing to do at request start */
+	PHP_RINIT(icms),	/* Replace with NULL if there's nothing to do at request start */
 	PHP_RSHUTDOWN(icms),	/* Replace with NULL if there's nothing to do at request end */
 	PHP_MINFO(icms),
 #if ZEND_MODULE_API_NO >= 20010901
