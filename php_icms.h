@@ -22,6 +22,7 @@ PHP_RINIT_FUNCTION(icms);
 PHP_RSHUTDOWN_FUNCTION(icms);
 PHP_MINFO_FUNCTION(icms);
 
+PHP_FUNCTION(icms_tpl_find_begin);
 PHP_FUNCTION(icms_tpl_find_end);
 PHP_FUNCTION(icms_tpl_find_char);
 
